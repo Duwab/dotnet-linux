@@ -20,8 +20,11 @@ Pour que l'éditeur fonctionne:
 * installer la version de dotnet SDK cible
 * ajouter le plugin c# le mieux maintenu de l'éditeur
 
-Pour faire fonctionner le debugger
-*Tuto debugger dotnet vscode*
+Pour faire fonctionner le debugger, ça devrait être "facile" (ex: [ce tuto](https://docs.microsoft.com/en-us/dotnet/core/tutorials/debugging-with-visual-studio-code?pivots=dotnet-6-0)).
+
+> **Windows + WSL:** sous windows, le SDK s'installe préférentiellement avec VS Installer. <br>
+> Et si VSCode est lancé depuis la WSL, il peut y avoir besoin d'ajouter un lien symbolique pour que ce dernier puisse trouver le sdk
+> Pour l'instant c'est pas grave, si on est sous Windows alors on peut bosser directement avec VS.
 
 ## Sample
 
