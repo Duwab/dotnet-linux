@@ -28,6 +28,10 @@ Pour faire fonctionner le debugger
 Ici, on fait un exemple avec le package WorkflowCore.
 
 ```
+docker compose up -d
+docker compose exec dottest bash
+
+# root@dottest:/app#
 cd /app/console
 dotnet run
 ```

@@ -2,6 +2,7 @@ version: '3.4'
 
 services:
     dottest:
+        hostname: dottest
         build: .
         entrypoint: sleep 1000000
         working_dir: /app
